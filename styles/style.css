@@ -48395,6 +48395,10 @@ footer.bg-dark.angled.lower-start:after,footer.bg-dark.angled.upper-start:before
         left:50%;
         transform: translate(-25%);
       }
+      .submit-btn:hover{
+        left:50%;
+        transform: translate(-25%);
+      }
       .we_provide{
         margin-top: -100px;
       }}
