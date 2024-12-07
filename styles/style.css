@@ -48390,3 +48390,23 @@ footer.bg-dark.angled.lower-start:after,footer.bg-dark.angled.upper-start:before
           align-items: center;
         }
       }
+      @media (min-width: 0px) and (max-width: 600px) {
+      .submit-btn{
+        left:50%;
+        transform: translate(-25%);
+      }
+      .we_provide{
+        margin-top: -100px;
+      }}
+      
+      @media (min-width: 601px) {
+        .we_provide{
+            margin-top: -37.5px;
+      }}
+      @media (min-width: 0px) and (max-width: 600px) {
+        .star_list{
+        display: none;
+        }
+        .star_list_btn{
+         margin-top: -30px;
+        }}
