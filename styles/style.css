@@ -48454,4 +48454,7 @@ footer.bg-dark.angled.lower-start:after,footer.bg-dark.angled.upper-start:before
     @media (min-width: 600px) {
         .why-text-title{
             display: none;
-        }}
+        }
+        .why_all{
+            margin-top: -40px;
+         }}
