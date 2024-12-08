@@ -48289,14 +48289,18 @@ footer.bg-dark.angled.lower-start:after,footer.bg-dark.angled.upper-start:before
      .logo-img{
         margin-left: -5px;
      }
-    .title-text{
-        margin-top: 5px;
-    }
+     .title-text{
+         margin-top: 15px;
+     }
     .title-text-btn{
         margin-top: -10px;
     }
     .first-page{
         margin-top: -45px;
+    }
+    .why-text-title{
+        margin-top: -20px;
+        margin-bottom: -90px;
     }
      .footer {
         background: #222;
@@ -48447,3 +48451,7 @@ footer.bg-dark.angled.lower-start:after,footer.bg-dark.angled.upper-start:before
         margin-bottom: -70px;
         margin-top: -25px;
     }}
+    @media (min-width: 600px) {
+        .why-text-title{
+            display: none;
+        }}
