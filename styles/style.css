@@ -48292,8 +48292,18 @@ footer.bg-dark.angled.lower-start:after,footer.bg-dark.angled.upper-start:before
     .title-text-btn{
         margin-top: -10px;
     }
+    .about-area{
+        margin-top: -85px;
+    }
+    .handshake-svg{
+        margin-top: 25px;
+        margin-bottom: -55px;
+    }
+    .mantra-text{
+        margin-bottom: -75px;
+    }
     .first-page{
-        margin-top: -45px;
+        margin-top: -40px;
     }
     .why-text-title{
         margin-top: -20px;
@@ -48452,6 +48462,10 @@ footer.bg-dark.angled.lower-start:after,footer.bg-dark.angled.upper-start:before
         .why-text-title{
             display: none;
         }
+        .circel-area{
+            margin-top: -15px;
+         }
         .why_all{
             margin-top: -40px;
          }}
+         
