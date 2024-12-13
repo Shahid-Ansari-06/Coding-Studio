@@ -48286,6 +48286,10 @@ footer.bg-dark.angled.lower-start:after,footer.bg-dark.angled.upper-start:before
     .first-header{
     margin-top: -15px;
     }
+    .col-lg-7 img{
+        margin-top: -85px;
+        margin-bottom: -25px;
+    }
      .logo-img{
         margin-left: -5px;
      }
@@ -48548,3 +48552,10 @@ footer.bg-dark.angled.lower-start:after,footer.bg-dark.angled.upper-start:before
            .form-index-area{
                 margin-top: -10px;
            }}
+        @media (min-width: 1000px) {
+            .col-lg-7 img{
+                margin-bottom: -65px;
+            }}
+            .whatsapp-integration-text{
+                margin-bottom: -50px;
+            }
