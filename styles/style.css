@@ -48311,10 +48311,13 @@ footer.bg-dark.angled.lower-start:after,footer.bg-dark.angled.upper-start:before
     }
     .transport-system-area{
          margin-top: -15px;
-         margin-bottom: -50px;
+         margin-bottom: -40px;
     }
     .transport-system-text{
         margin-top: 30px;
+    }
+    .web-development-area{
+        margin-bottom: -50px;
     }
     .i3-img-circel-area{
         margin-top: -75px;
