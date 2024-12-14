@@ -48313,6 +48313,13 @@ footer.bg-dark.angled.lower-start:after,footer.bg-dark.angled.upper-start:before
         margin-top: -75px;
         margin-bottom: -65px;
     }
+    .accounts-management-area{
+        margin-bottom: -50px;
+        margin-top: -55px;
+    }
+    .accounts-management-text{
+        margin-top: 25px;
+    }
     .about-area{
         margin-top: -85px;
     }
@@ -48572,6 +48579,9 @@ footer.bg-dark.angled.lower-start:after,footer.bg-dark.angled.upper-start:before
         @media (min-width: 1000px) {
             .col-lg-7 img{
                 margin-bottom: -65px;
+            }
+            .accounts-management-img{
+                margin-top: -50px;
             }}
             .whatsapp-integration-text{
                 margin-bottom: -50px;
@@ -48579,3 +48589,7 @@ footer.bg-dark.angled.lower-start:after,footer.bg-dark.angled.upper-start:before
             .provide-area-article{
                 margin-bottom: -25px;
             }
+            @media (min-width: 1000px) {
+            .accounts-management-area{
+                margin-bottom: -55px;
+            }}
