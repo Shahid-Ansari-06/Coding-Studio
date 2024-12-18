@@ -48255,6 +48255,12 @@ footer.bg-dark.angled.lower-start:after,footer.bg-dark.angled.upper-start:before
     padding: 10px 0 10px 30px;
     text-align: left
 }
+.full-content-area {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    margin-top: 50px;
+}
 .click-here-btn{
     background-color: rgb(0, 157, 255);
     border-color: transparent;
@@ -48265,13 +48271,14 @@ footer.bg-dark.angled.lower-start:after,footer.bg-dark.angled.upper-start:before
     color: #fff;
     box-shadow: 2px 2px 5px #000;
     cursor: pointer;
+    margin-top: 25px;
 }
 .click-here-btn:hover{
     color: #000;
     background: rgb(0, 255, 255);
 }
 .red-text-copyright{
-    color: #b00;
+    color: red;
 }
 @media (min-width: 601px) and (max-width: 1024px) {
     .first-page{
