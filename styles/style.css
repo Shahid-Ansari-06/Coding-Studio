@@ -48255,14 +48255,6 @@ footer.bg-dark.angled.lower-start:after,footer.bg-dark.angled.upper-start:before
     padding: 10px 0 10px 30px;
     text-align: left
 }
-#fullcontentarea{
-    font-family: Arial, sans-serif;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 50px;
-}
 .click-here-btn{
     background-color: rgb(0, 157, 255);
     border-color: transparent;
