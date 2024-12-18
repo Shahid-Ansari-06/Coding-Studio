@@ -11,7 +11,7 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
+<body id="fullcontentarea" style="display:none;">
     <section class="first-header">
 <div class="content-wrapper">
     <header class="wrapper bg-soft-primary">
@@ -78,8 +78,8 @@
             <div class="col-lg-6 ms-auto position-relative">
                 <div class="row g-4">
                     <div class="col-4 d-flex flex-column ms-auto" data-cues="fadeIn" data-group="col-start" data-delay="900">
-                        <div class="ms-auto mt-6"><img class="img-fluid rounded shadow-lg" src="all.images\160x100.png" alt="Send Fee Reminder on Whats App"  title="Send Fee Reminder on Whats App" /></div>
-                        <div class="ms-auto mt-4"><img class="img-fluid rounded shadow-lg" src="all.images/180x220.png" alt="Dynamic Custom Website Free" title="Dynamic Custom Website Free" /></div>
+                        <div class="ms-auto mt-6"><img class="img-fluid rounded shadow-lg" src="all.images\160x100.png" alt="WhatsApp Bot"  title="WhatsApp Bot" /></div>
+                        <div class="ms-auto mt-4"><img class="img-fluid rounded shadow-lg" src="all.images/180x220.png" alt="Custom Dynamic Websites" title="Custom Dynamic Websites" /></div>
                         <div class="ms-auto mt-4"><img class="img-fluid rounded shadow-lg" src="all.images/200x100.png" alt="Online Examination" title="Online Examination"/></div>
                     </div>
 
@@ -90,8 +90,8 @@
                     </div>
 
                     <div class="col-4 d-flex flex-column" data-cues="fadeIn" data-group="col-end" data-delay="900">
-                        <div class="mt-8"><img class="img-fluid rounded shadow-lg" src="all.images/180x230.png"  title="library management" alt="library management" /></div>
-                        <div class="mt-4 mb-10"><img class="img-fluid rounded shadow-lg" src="all.images/200x190.png" title="Accounts Management with Inventory" alt="Accounts Management with Inventory"/></div>
+                        <div class="mt-8"><img class="img-fluid rounded shadow-lg" src="all.images/180x230.png"  title="Library Management" alt="Library Management" /></div>
+                        <div class="mt-4 mb-10"><img class="img-fluid rounded shadow-lg" src="all.images/200x190.png" title="Accounts Management With Inventory" alt="Accounts Management With Inventory"/></div>
                     </div>
 
                 </div>
@@ -335,7 +335,24 @@
       </div>
     </div>
   </footer>
- 
+  <div id="copyrightProtection" class="copyright-Protection">
+    <h1 style="color:black;"> <span class="red-text-copyright"> Empowering minds</span>, one line of code at a time. Learn coding with us and turn your curiosity into creativity! </h1>
+    <a href="https://www.youtube.com/channel/UCrZ9NaztjEVJXLtWENlvAJA"> <button class="click-here-btn"> Click Here </button> </a>
+</div>
+<script>
+    const blockedHostname = '127.0.0.1';
+    const blockedPortStart = 3000;
+    const blockedPortEnd = 5000;
+    const currentPort = window.location.port;
+
+    if (window.location.hostname === blockedHostname && currentPort >= blockedPortStart && currentPort <= blockedPortEnd) {
+        document.getElementById('fullcontentarea').style.display = 'none';
+        document.getElementById('copyrightProtection').style.display = 'block';
+    } else {
+        document.getElementById('fullcontentarea').style.display = 'block';
+        document.getElementById('copyrightProtection').style.display = 'none';
+    }
+</script>
   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser/dist/email.min.js"></script>
   <script>
   
