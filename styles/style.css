@@ -48405,7 +48405,10 @@ footer.bg-dark.angled.lower-start:after,footer.bg-dark.angled.upper-start:before
      }
      .biometric-integration-area{
         margin-bottom: -25px;
-     }}
+     }
+    .heading-text-1{
+        font-size: 41px;
+    }}
       @media (min-width: 0px) and (max-width: 600px) {
       .submit-btn{
         left:50%;
@@ -48416,13 +48419,15 @@ footer.bg-dark.angled.lower-start:after,footer.bg-dark.angled.upper-start:before
         transform: translate(-25%);
       }
       .we_provide{
-        margin-top: -100px;
-      }}
-      
-      @media (min-width: 601px) {
-        .we_provide{
-            margin-top: -35px;
-      }}
+        margin-top: -75px;
+      }
+    .circel-all-area-and-provide{
+        margin-top: -25px;
+    }
+.text-lg-start{
+    margin-top: 60px;
+}}
+     
       @media (min-width: 0px) and (max-width: 768px) {
         .star_list{
         display: none;
@@ -48546,8 +48551,8 @@ footer.bg-dark.angled.lower-start:after,footer.bg-dark.angled.upper-start:before
                 margin-bottom: -55px;
             }
             .circel-all-area-and-provide{
-                margin-top: -100px;
-                margin-bottom: -30px;
+                margin-top: -50px;
+                margin-bottom: -15px;
             }}
             @media (max-width: 999px) {
             .circel-all-area-and-provide{
